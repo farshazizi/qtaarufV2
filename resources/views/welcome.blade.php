@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Qtaaruf</title>
+		<title>qtaaruf</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="taaruf online" />
 		<meta name="keywords" content="taaruf online, qtaaruf, taaruf" />
@@ -28,13 +28,10 @@
 		<link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
 		<!-- Bootstrap  -->
 		<link rel="stylesheet" href="{{ url('css/bootstrap.css') }}">
-
 		<!-- Magnific Popup -->
 		<link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}">
-
 		<!-- Theme style  -->
 		<link rel="stylesheet" href="{{ url('css/style.css') }}">
-
 		<!-- Modernizr JS -->
 		<script src="{{ url('js/modernizr-2.6.2.min.js') }}"></script>
 		<!-- FOR IE9 below -->
@@ -46,6 +43,36 @@
 	<body>	
 		
 		@yield('konten')
+		@yield('proses')
+		@yield('gallery')
+		
+		<div id="fh5co-started">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>Subscribe</h2>
+							<h3>Dapatkan Ebook dan tips - tips menarik Tentang membangun keluarga sakinah.</h3>
+							<h3>Klik Dibawah!</h3>
+						</div>
+					</div>
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2">
+							<form class="form-inline">
+								<div class="col-md-6 col-sm-6">
+									<div class="form-group">
+										<label for="email" class="sr-only">Email</label>
+										<input type="email" class="form-control" id="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="container">
